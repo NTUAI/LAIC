@@ -1,13 +1,13 @@
 from riotwatcher import LolWatcher, ApiError
 
-# 填入您的 Riot API 密钥和默认区域
-api_key = 'RGAPI-1f6b2834-d08c-4ec8-bbfc-9e5c46c3acd2'
+#Fill in your Riot API key and default region
+api_key = 'RGAPI-xxxxxxxxxxxxx'
 my_region = 'tw2'
 
-# 创建 LolWatcher 实例
+# Create a LolWatcher instance
 lol_watcher = LolWatcher(api_key)
 
-# 调用 get_summoner_by_name 函数，传入召唤师名称
+# Call the get_summoner_by_name function, passing in the summoner name
 try:
     summoner = lol_watcher.summoner.by_name(my_region, 'summoner_name')
     print('summoner ID：', summoner['id'])
