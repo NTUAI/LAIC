@@ -50,7 +50,7 @@ for i in range(len(grmaster_df)):
                              grmaster_df.loc[:, [
                                  'summonerId', 'leaguePoints', 'rank', 'wins', 'losses']],
                              left_on='id', right_on='summonerId', how='left').drop(columns='summonerId')
-
+#limit api rate
     for i in range(len(grmaster_user)):
         with open('grmasteruser.csv', 'w', encoding="utf-8") as f:
             f.write(grmaster_user.to_csv())
