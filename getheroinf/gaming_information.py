@@ -1,5 +1,3 @@
-﻿
-
 import pandas as pd
 import json
 import opencc
@@ -20,17 +18,17 @@ def get_all_heros():
     c = r.text
     l = json.loads(c)['hero']
 
-    # 将数据转换为dataframe
+    # convert data to dataframe
     df = pd.DataFrame(l)
     df = df[['heroId', 'name', 'alias']]
     df.columns = ['ID', '姓名', '别名']
 
-    # 将簡體中文转换为繁體中文
+    # Convert Simplified Chinese to Traditional Chinese
     cc = opencc.OpenCC('s2t.json')
     df['姓名'] = df['姓名'].apply(lambda x: cc.convert(x))
     df['别名'] = df['别名'].apply(lambda x: cc.convert(x))
 
-    # 将dataframe保存到csv文件中
+    # Save dataframe into csv file
     df.to_csv('heros.csv', index=False, encoding='utf-8-sig')
 
 
