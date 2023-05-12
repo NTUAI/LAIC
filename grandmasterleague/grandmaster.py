@@ -6,7 +6,7 @@ import time
 import warnings
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
-my_api = 'RGAPI-8f2c61c3-593f-4d5e-a337-0adabcf77afd'
+my_api = 'RGAPI-XXXXXXXXX'
 
 grmaster = 'https://euw1.api.riotgames.com/lol/league/v4/grandmasterleagues/by-queue/RANKED_SOLO_5x5?api_key=' + my_api
 req = requests.get(grmaster)
