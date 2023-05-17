@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "type": "identityapp.default",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/linebotapidbserver/databases/adminlte_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:sqldb",
+      "dynamicId": null
+    }
+  }
+}
