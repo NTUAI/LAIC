@@ -7,7 +7,7 @@ LAIC (League AI Commentator) 系統主要包含：
 - 用戶介面： 負責與使用者進行互動。
 - 資訊擷取： 負責從各種不同的資源中收集相關資訊。
 - 生成式人工智慧： 作為系統的核心部分，對收集到的資訊進行分析、歸納，並生成有意義的回答。
-- 語音合成： 將生成的回答轉化為語音，方便用戶聆聽。
+- 語音合成： 將生成的回答轉化為語音，方便使用者聆聽。
 
 The **LAIC** (League AI Commentator) system comprises:
 
@@ -19,7 +19,7 @@ The **LAIC** (League AI Commentator) system comprises:
 
 
 _ _ _
-![LAICLogo.png](D:\LOLProject\LAICLogo.png)
+![LAICLogo.png](![image](https://github.com/NTUAI/LAIC/assets/41275553/8c911655-8188-4141-a20b-72bb1a7aa0d9))
 
 
 
