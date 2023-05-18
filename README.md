@@ -2,7 +2,7 @@
 [NTUAI Club](https://ntuai.club) x [NTU Esports Club](https://www.facebook.com/ntuesports)
 
 
-LAIC (League AI Commentator) 系統主要包含：
+LAIC (英雄聯盟智慧評論員) 系統主要包含：
 
 - 用戶介面： 負責與使用者進行互動。
 - 資訊擷取： 負責從各種不同的資源中收集相關資訊。
