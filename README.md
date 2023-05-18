@@ -19,7 +19,7 @@ The **LAIC** (League AI Commentator) system comprises:
 
 
 _ _ _
-![LAICLogo.png](![image](https://github.com/NTUAI/LAIC/assets/41275553/8c911655-8188-4141-a20b-72bb1a7aa0d9))
+(![image](https://github.com/NTUAI/LAIC/assets/41275553/8c911655-8188-4141-a20b-72bb1a7aa0d9))
 
 
 
