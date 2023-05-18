@@ -20,7 +20,7 @@ _ _ _
 
 _ _ _
 
-**英雄聯盟智慧評論員系統**主要功能與說明：
+**英雄聯盟智慧評論員系統**介面說明：
 
 - **系統架設：** 該系統是使用 ASP.NET 所架設的網站。
 
@@ -45,6 +45,6 @@ _ _ _
   - OpenAI API Application: [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
   - Azure Text to Speech: [https://azure.microsoft.com/zh-tw/products/cognitive-services/text-to-speech](https://azure.microsoft.com/zh-tw/products/cognitive-services/text-to-speech)
 _ _ _
-# 前端頁面顯示
+# 介面顯示
 
 ![網頁擷取_14-5-2023_12115_localhost](https://github.com/NTUAI/LAIC/assets/96654161/6929a493-f7e4-4b32-ac2b-69c01a1e344d)
