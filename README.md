@@ -4,17 +4,17 @@
 
 LAIC (英雄聯盟智慧評論員) 系統主要包含：
 
-- 用戶介面： 負責與使用者進行互動。
-- 資訊擷取： 負責從各種不同的資源中收集相關資訊。
-- 生成式人工智慧： 作為系統的核心部分，對收集到的資訊進行分析、歸納，並生成有意義的回答。
-- 語音合成： 將生成的回答轉化為語音，方便使用者聆聽。
+- **用戶介面**： 負責與使用者進行互動。
+- **資訊擷取**： 負責從各種不同的資源中收集相關資訊。
+- **生成式人工智慧**： 作為系統的核心部分，對收集到的資訊進行分析、歸納，並生成有意義的回答。
+- **語音合成**： 將生成的回答轉化為語音，方便使用者聆聽。
 
 The **LAIC** (League AI Commentator) system comprises:
 
-- User Interface: The interface for interaction with users.
-- Information Extraction: Collects relevant data from various sources.
-- Generative AI: The core component that analyzes and summarizes the collected information to generate meaningful responses.
-- Speech Synthesis: Converts the generated responses into audio for user convenience.
+- **User Interface**: The interface for interaction with users.
+- **Information Extraction**: Collects relevant data from various sources.
+- **Generative AI**: The core component that analyzes and summarizes the collected information to generate meaningful responses.
+- **Speech Synthesis**: Converts the generated responses into audio for user convenience.
 _ _ _
 ![image](https://github.com/NTUAI/LAIC/assets/41275553/5a122a67-7bb7-44a6-beb4-a13c569427ea)
 
@@ -28,9 +28,9 @@ _ _ _
 
 - **評論生成：** 透過 ChatGPT 將 Riot API 的資訊與影片音訊結合，自動生成具有深度的評論內容。
 
-- **字幕：** 提供中英文字幕切換功能。
+- **字幕顯示：** 提供中英文字幕切換功能。
 
-- **語音：** 提供三種風格的語音播報。
+- **語音播放：** 提供三種風格的語音播報。
 
 - **影片來源：** YouTube、上傳影片，或使用比賽的 MatchID。
 
