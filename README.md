@@ -15,9 +15,6 @@ The **LAIC** (League AI Commentator) system comprises:
 - Information Extraction: Collects relevant data from various sources.
 - Generative AI: The core component that analyzes and summarizes the collected information to generate meaningful responses.
 - Speech Synthesis: Converts the generated responses into audio for user convenience.
-
-
-
 _ _ _
 ![image](https://github.com/NTUAI/LAIC/assets/41275553/5a122a67-7bb7-44a6-beb4-a13c569427ea)
 
@@ -26,3 +23,8 @@ _ _ _
 
 OpenAI API Application::
 https://platform.openai.com/account/api-keys
+
+_ _ _
+# 前端頁面顯示
+
+![網頁擷取_14-5-2023_12115_localhost](https://github.com/NTUAI/LAIC/assets/96654161/6929a493-f7e4-4b32-ac2b-69c01a1e344d)
