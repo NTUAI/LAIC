@@ -1,10 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar  6 21:18:12 2021
 
-@author: compute
-IDEA= Find the number of mid, top, etc. players in challenger and what their most played champion is
-"""
 import cassiopeia as cass
 import roleml
 import json
@@ -14,7 +9,7 @@ from collections import Counter
 
 
 def getAPI_key():
-    f = 'RGAPI-8f2c61c3-593f-4d5e-a337-0adabcf77afd'
+    f = 'RGAPI-XXXX'
     return f
 
 
@@ -36,8 +31,7 @@ def analyzeMatch(match, summoner):
 
 def get_challenger_data():
     data = cass.get_challenger_league(
-        cass.Queue.ranked_solo_fives)  # get the challenger data
-
+        cass.Queue.ranked_solo_fives)  
     summonerNames = []
     role_dict = []
     champ_dict = []
@@ -83,16 +77,16 @@ def write_output(summonerNames, role_dict, champ_dict):
         print(summonerNames[i], "//", role_dict[i], "//", champ_dict[i])
 
 
-# %% Main run
+
 if __name__ == "__main__":
 
     start_time = time.time()
 
     # or replace with your own api key
-    cass.set_riot_api_key('RGAPI-8f2c61c3-593f-4d5e-a337-0adabcf77afd')
+    cass.set_riot_api_key('RGAPI-XXX')
     cass.set_default_region("TW")  # or replace with another region
 
-    with open('G:\\NTU\\championFull.json', 'r', encoding='utf-8-sig') as champList_file:
+    with open('championFull.json', 'r', encoding='utf-8-sig') as champList_file:
         champList = json.load(champList_file)
         champList_file.close()
         champList = champList['keys']
@@ -101,4 +95,3 @@ if __name__ == "__main__":
     write_output(summonerNames, role_dict, champ_dict)
 
     print("\n--- %s seconds ---" % (time.time() - start_time))
-# %%
